@@ -10,7 +10,7 @@ public class Main {
         double num = scanner.nextDouble();
         char operation = scanner.next().charAt(0);
         double num2 = scanner.nextDouble();
-       {
+      {
             System.out.println(total(num, operation, num2));
         }
         scanner.close();
