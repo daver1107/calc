@@ -10,10 +10,7 @@ public class Main {
         double num = scanner.nextDouble();
         char operation = scanner.next().charAt(0);
         double num2 = scanner.nextDouble();
-        if (num2 == 0 && operation == '/') {
-            System.out.println("Ошибка! Делить на 0 нельзя");
-
-        } else {
+       {
             System.out.println(total(num, operation, num2));
         }
         scanner.close();
